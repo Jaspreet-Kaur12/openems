@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.23.1
 
 RUN mkdir /usr/share/nginx/html/m
 ADD m /usr/share/nginx/html/m
