@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic-20220830
 RUN mkdir -p /opt/openems-backend
 WORKDIR /opt/openems-backend
 COPY build/openems-backend.jar ./
