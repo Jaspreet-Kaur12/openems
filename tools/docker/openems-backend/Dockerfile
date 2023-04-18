@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 RUN mkdir -p /opt/openems-backend
 WORKDIR /opt/openems-backend
 COPY build/openems-backend.jar ./
